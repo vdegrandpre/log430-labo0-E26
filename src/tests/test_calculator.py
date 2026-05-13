@@ -13,6 +13,7 @@ def test_app():
 
 def test_addition():    
     assert Calculator().addition(2, 3) == 5
+    assert Calculator().addition(255, 3234) == 3489
 
 def test_subtraction():
     assert Calculator().subtraction(2, 3) == -1
