@@ -2,6 +2,7 @@
 Calculator app tests
 SPDX - License - Identifier: LGPL - 3.0 - or -later
 Auteurs : Gabriel C. Ullmann, Fabio Petrillo, 2025
+Étidiant : Vincent de Grandpré (DEGV03078209), E26
 """
 
 from calculator import Calculator
