@@ -35,3 +35,4 @@ def test_division():
     assert Calculator().division(6, 3) == 2
     assert Calculator().division(-6, 6) == -1
     assert Calculator().division(6, 5) == 1.2
+    assert Calculator().division(5, 5) == 1
