@@ -20,6 +20,7 @@ def test_subtraction():
     assert Calculator().subtraction(-2, 3) == -5
     assert Calculator().subtraction(-2, -3) == 1
     assert Calculator().subtraction(0, -3) == 3
+    assert Calculator().subtraction(3, 3) == 0
 
 def test_mutiplication():
     assert Calculator().multiplication(-1, -1) == 1
