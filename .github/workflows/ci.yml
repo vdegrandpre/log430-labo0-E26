@@ -1,4 +1,4 @@
-name: example_CI
+name: LOG430-Lab0_CI
 
 on: [push, pull_request]
 
