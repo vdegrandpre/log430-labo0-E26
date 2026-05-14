@@ -37,6 +37,8 @@ jobs:
   # Identique à la construction mais sur un noeud auto-hébergé
   deploy:
     runs-on: self-hosted
+    container:
+      image: ubuntu:22.04
     environment: Labo0
 
     steps:
