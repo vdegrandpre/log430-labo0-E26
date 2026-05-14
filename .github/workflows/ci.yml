@@ -10,7 +10,7 @@ jobs:
     environment: Labo0
 
     steps:
-      - name: Checkout dépot
+      - name: Checkout dépot  
         uses: actions/checkout@v3
 
       - name: Créer fichier .env 
@@ -51,6 +51,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+          architecture: 'x86'
 
       - name: Installer les dépendances
         run: |
