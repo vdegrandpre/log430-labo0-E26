@@ -34,7 +34,7 @@ jobs:
         run: | 
           python -m pytest
   
-  # Identique à la construction
+  # Identique à la construction mais sur un noeud auto-hébergé
   deploy:
     runs-on: self-hosted
     environment: Labo0
