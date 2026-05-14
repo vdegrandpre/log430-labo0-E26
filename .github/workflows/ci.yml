@@ -37,6 +37,7 @@ jobs:
   # Identique à la construction mais sur un noeud auto-hébergé
   deploy:
     runs-on: self-hosted
+    # Utilisation d'un conteneur docker pour GitHub Runner
     container:
       image: ubuntu:22.04
     environment: Labo0
