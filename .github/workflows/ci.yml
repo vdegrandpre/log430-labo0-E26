@@ -1,3 +1,5 @@
+# Étudiant : Vincent de Grandpré (DEGV03078209), E26
+# Fichier d'intégration continue GitHub pour le projet Labo0
 name: LOG430-Lab0_CI
 
 on: [push, pull_request]
@@ -31,6 +33,8 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}/src
         run: | 
           python -m pytest
+  
+  # Identique à la construction
   deploy:
     runs-on: self-hosted
     environment: Labo0
